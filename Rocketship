@@ -1,5 +1,8 @@
+//this code makes a rocket ship using input from the user
+
 import java.util.Scanner;
 public class rocket {
+// this part uses methods created by ryan to make the cone, divider and other parts of the rocket ship
     public static void main(String[] args){
         Scanner scnr = new Scanner(System.in);
         System.out.print("Size of Rocket: ");
@@ -10,13 +13,13 @@ public class rocket {
         drawTopBody(size);
         drawBottomHalf(size);
         drawDivider(size);
-        System.out.print("\n");
+        System.out.println();
         drawBottomHalf(size);
         drawTopBody(size);
         drawDivider(size);
-        System.out.print("\n");
+        System.out.println();
         drawCone(size);
-        System.out.print("\n");
+        System.out.println();
 
 
     }
